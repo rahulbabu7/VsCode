@@ -1,0 +1,147 @@
+body{
+    background-color: #0e0e0e;
+}
+.navHeader{
+    color: white;
+}
+
+.nav-icon{
+    width: 1cm;
+    height: 1cm;
+    
+}
+.homeLink{
+    display: flex;
+    justify-content: center;        
+    /* background-color: aquamarine; */
+    align-items: center;
+    gap: 20px;
+}
+/* 
+this is the style to first a tag in the homelink
+.homeLinkIcon  {
+    color: white !important;
+    font-size: 20;
+    font-weight: bold;              
+} */
+/* Adding style to the first a tag */
+.homeLink a:nth-of-type(2){
+    color: white ;
+    font-size: 20;
+    font-weight: bold; 
+}
+.navLink{
+    margin-left: 330px;
+    margin-right: 330px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+.homeLink a{
+    color:grey;
+    /* padding-left: 30px; */
+    text-decoration: none;
+    
+
+} 
+.homeLink a:hover{
+    color:rgb(199, 188, 188);
+}      
+.banner{
+    display: flex;
+    /* padding-left: 30%; */
+    color: grey;
+    justify-content: center;
+    font-size: 14px;
+    /* background-color: aqua; */
+}
+.banner a{
+    color:#4390d4;
+}
+
+.navSearch{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.firstSection{
+    margin-left: 330px;
+    margin-right: 330px;
+    /* background-color: rgb(119, 0, 255); */
+    display: flex;
+    justify-content:space-between;
+    margin-top: 50px;
+}
+.firstSection a{
+    color: #4390d4;
+}
+.sectionOneChild h5{
+    color: rgb(168, 161, 161); 
+    background-color: rgb(44, 44, 44);
+    padding: 6px;
+    border-radius: 20px;
+}
+
+.sectionOneChild {
+    display: flex;
+    justify-content:center;
+    align-items: start;
+    flex-direction: column;
+    color: white;
+}
+.sectionOnechildTwo img{
+width: 800px;
+height: 100%;
+}
+.sectionOneChild span{
+    display: flex;
+
+}
+.SecOnespanTwo {
+    font-size: 10px;
+    color: grey;
+}
+.sectionOneChild h1{
+    font-size: 56px;
+    margin-top: -10px;
+}
+.Download{
+    border-radius: 6px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color:#0078d4;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    border-color: #0078d4;
+    cursor: pointer;
+   
+}
+.Download:hover{
+    border-color: #005ca3;
+    background-color:#005ca3;
+}
+   
+     
+.file-type {
+    font-weight: bold; /* Optional: makes the file type bold */
+}
+
+button.Download .distributions {
+    font-size: 0.9em; /* Optional: slightly smaller text */
+}
+
+.secOnespanOne{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: grey;
+    font-size: 13px;
+    gap: 2px;
+}
+.SecOnespanTwo a:nth-child(1){
+    margin-left: 5px
+}
