@@ -64,11 +64,55 @@ this is the style to first a tag in the homelink
     /* justify-content: center; */
     align-items: center;
 }
+.seachBox{
+    display: flex;
+}
+.search{
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 12px;
+    padding-right: 10px;
+    color: grey;
+    background-color: black;
+    border-color: black;
+    border: 0;
+    justify-content: center;
+}
+.search::placeholder {
+    color: #aaa; 
+    font-size: 14px;
+}
+/* .DownloadHome{
+    border-radius: 6px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 13px;
+    padding-right: 13px;
+    background-color:#0078d4;
+    color: white;
+    border-color: #0078d4;
+    cursor: pointer;
+    font-weight: bold;
+    
+} */
 
+.DownloadHome{
+    padding: 8px 16px;
+    background-color: #0078d4; /* Button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    /* transition: background-color 0.3s; */
+}
+.DownloadHome:hover {
+    background-color: #005a9e; /* Button color on hover */
+}
 .firstSection{
     margin-left: 330px;
     margin-right: 330px;
-    /* background-color: rgb(119, 0, 255); */
+    
     display: flex;
     justify-content:space-between;
     margin-top: 50px;
@@ -105,7 +149,9 @@ height: 100%;
 .sectionOneChild h1{
     font-size: 56px;
     margin-top: -10px;
+    margin-bottom: 20px;
 }
+
 .Download{
     border-radius: 6px;
     padding-left: 24px;
